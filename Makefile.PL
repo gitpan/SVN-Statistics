@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'SVN::Statistics',
     'VERSION_FROM'	=> 'Statistics.pm', # finds $VERSION
-    'PREREQ_PM'		=> {'RRDTool:OO'},
+    'PREREQ_PM'		=> {'RRDTool::OO'},
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'Statistics.pm', # retrieve abstract from module
        AUTHOR     => 'Markus Linke <markus.linke@linke.de>') : ()),

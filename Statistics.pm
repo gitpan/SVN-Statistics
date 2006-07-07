@@ -1,7 +1,7 @@
 package SVN::Statistics;
 
-# $LastChangedDate: 2006-07-06 07:05:13 -0500 (Thu, 06 Jul 2006) $
-# $LastChangedRevision: 18 $ 
+# $LastChangedDate: 2006-07-06 20:52:15 -0500 (Thu, 06 Jul 2006) $
+# $LastChangedRevision: 31 $ 
 # $LastChangedBy: markus.linke@linke.de $ 
 
 use 5.008;
@@ -27,7 +27,7 @@ our %EXPORT_TAGS = (
 
 our @EXPORT_OK = (@{$EXPORT_TAGS{'all'}});
 
-$VERSION = 0 + sprintf("%3f",((qw$LastChangedRevision: 18 $)[-1])/1000);
+$VERSION = 0 + sprintf("%3f",((qw$LastChangedRevision: 31 $)[-1])/1000);
 
 
 sub test {
@@ -65,10 +65,15 @@ none
 
 =head1 SEE ALSO
 
-   http://www.linke.de for my personal homepage
-   Submit bugs at http://bugzilla.it-projects.com
+   http://www.linke.de for my personal homepage and
+   http://trac.it-projects.com/svnstats for the project TRAC pages
+   
+   Please submit bugs at http://bugzilla.it-projects.com
+   
    Hosted Subversion Version Control provided by http://svn.it-projects.com
-      
+   Checkout the latest version at https://svn.it-projects.com/svn/svnstats
+
+
 =head1 AUTHOR
 
 Markus Linke, markus.linke@linke.de

@@ -19,10 +19,14 @@ EXPORT
     none
 
 SEE ALSO
-       http://www.linke.de for my personal homepage
-       Submit bugs at http://bugzilla.it-projects.com
+       http://www.linke.de for my personal homepage and
+       http://trac.it-projects.com/svnstats for the project TRAC pages
+   
+       Please submit bugs at http://bugzilla.it-projects.com
+   
        Hosted Subversion Version Control provided by http://svn.it-projects.com
-      
+       Checkout the latest version at https://svn.it-projects.com/svn/svnstats
+
 AUTHOR
     Markus Linke, markus.linke@linke.de
 
