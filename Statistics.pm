@@ -1,7 +1,7 @@
 package SVN::Statistics;
 
-# $LastChangedDate: 2006-07-06 20:52:15 -0500 (Thu, 06 Jul 2006) $
-# $LastChangedRevision: 31 $ 
+# $LastChangedDate: 2006-09-05 14:36:32 -0500 (Tue, 05 Sep 2006) $
+# $LastChangedRevision: 41 $ 
 # $LastChangedBy: markus.linke@linke.de $ 
 
 use 5.008;
@@ -11,7 +11,7 @@ use warnings;
 use vars qw(@ISA @EXPORT @EXPORT_OK %EXPORT_TAGS $VERSION);
 use English;
 use Data::Dumper::Simple;
-use RRDTool::OO;
+#use RRDTool::OO;
 use IO::Toolkit;
 use SVN::Log;
 
@@ -27,7 +27,7 @@ our %EXPORT_TAGS = (
 
 our @EXPORT_OK = (@{$EXPORT_TAGS{'all'}});
 
-$VERSION = 0 + sprintf("%3f",((qw$LastChangedRevision: 31 $)[-1])/1000);
+$VERSION = 0 + sprintf("%3f",((qw$LastChangedRevision: 41 $)[-1])/1000);
 
 
 sub test {
@@ -57,7 +57,12 @@ Sample Script (please also have a look into the samples directory):
 
 =head1 DESCRIPTION
 
-SVN::Statistics - perl module to create subversion statistics
+SVN::Statistics - perl module to create subversion statistics. 
+
+I found a product (fisheye http://www.cenqua.com/fisheye/), which has most of
+the features I was looking for; because of this and a lack of time to work on
+this I have decided not to continue with the project. If you would like to take
+over, please let me know and I will give full repository access.
 
 =head1 EXPORT
 

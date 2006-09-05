@@ -13,7 +13,13 @@ SYNOPSIS
        use SVN::Statistics;
 
 DESCRIPTION
-    SVN::Statistics - perl module to create subversion statistics
+    SVN::Statistics - perl module to create subversion statistics.
+
+    I found a product (fisheye http://www.cenqua.com/fisheye/), which has
+    most of the features I was looking for; because of this and a lack of
+    time to work on this I have decided not to continue with the project. If
+    you would like to take over, please let me know and I will give full
+    repository access.
 
 EXPORT
     none
